@@ -1,0 +1,50 @@
+/*general styling ll component */ 
+div {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row coloring for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e1e1e1;
+}
+
+/* Styling for error messages */
+div > div {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Styling for no data message */
+p {
+    font-style: italic;
+    color: #888;
+}
